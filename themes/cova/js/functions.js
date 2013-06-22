@@ -9,4 +9,6 @@ $(document).ready(function(){
 
 	$('header').height(altoVentana + 'px');
 	$('#logo').css('marginTop', '' + mitadVentana - 100 + 'px');
+
+
 });
