@@ -11,7 +11,7 @@
 					<?php echo apply_filters('the_content', $about->post_content); ?>
 				</article>
 			</section>
-			
+
 			<section id="blog" class="clearfix">
 				<div class="titulo">
 					<h2>Archivo<br />Personal</h2>
@@ -28,8 +28,8 @@
 				?>
 
 				<article id="<?php echo $post->post_name; ?>">
-					<h3><?php the_title(); ?></h3>
-					
+					<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+
 					<?php
 						$id = get_post_thumbnail_id( $post->ID );
 						$img = wp_get_attachment_image_src( $id, 'blog', false );
@@ -46,5 +46,5 @@
 				</div>-->
 			</section>
 
-			
+
 <?php get_footer(); ?>

@@ -56,6 +56,7 @@ em {font-style: italic; }
 /*** SECTION BLOG ***/
 #blog {margin-bottom: 30px; margin-top: 40px;}
 #blog h2, #blog h3 {color: #333;}
+#blog h3 a {color: #333;}
 #blog img{ margin-bottom: 10px;}
 .navigation {width: 200px; margin: 0 auto; font-size: 18px; font-family: 'Gotham-Black'; margin-bottom: 30px;}
 .navigation a {color: #606060; text-decoration: none; }
@@ -108,6 +109,6 @@ article img {width: 100%; height: auto;}
 /*** SECTION CONTACTO ***/
 #contacto h2, #contacto h3 {color: #333;}
 
-.fb-like {display: none;!important} 
+.fb-like {display: none;!important}
 
 }
