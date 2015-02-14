@@ -6,11 +6,12 @@
 					<h3><?php the_title(); ?></h3>
 					
 					<?php
+						/*
 						$id = get_post_thumbnail_id( $post->ID );
 						$img = wp_get_attachment_image_src( $id, 'blog', false );
-
+						*/
 						?>
-						<img src="<?php echo $img[0];?>">
+						<!--<img src="<?php echo $img[0];?>">-->
 					<?php the_content(); ?>
 
 				</article>

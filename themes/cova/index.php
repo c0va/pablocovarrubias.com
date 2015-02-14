@@ -35,7 +35,7 @@
 						$img = wp_get_attachment_image_src( $id, 'blog', false );
 
 						?>
-						<?php if(has_post_thumbnail( $post->ID )){ ?><img src="<?php echo $img[0];?>"> <?php } ?>
+						<?php if(has_post_thumbnail( $post->ID )){ ?><!-- <img src="<?php echo $img[0];?>">--> <?php } ?>
 					<?php the_content(); ?>
 
 				</article>
