@@ -11,7 +11,7 @@ $(document).ready(function(){
 	$('#logo').css('marginTop', '' + mitadVentana / 2 - 50 + 'px');
 
 	var imagen = Math.floor((Math.random()*14)+1);
-	$('header').css('background-image', 'url(http://pablocovarrubias.com/wp-content/themes/cova/images/bg/' + imagen + '.jpg)')
+	$('header').css('background-image', 'url(http://pablocovarrubias.com/wp-content/themes/cova_live/images/bg/' + imagen + '.jpg)')
 
 
 });
